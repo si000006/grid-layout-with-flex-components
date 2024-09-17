@@ -48,18 +48,25 @@ main{
 .emoji {
     display: flex;
     flex-direction: column;
+    width:400px;
+    height: auto;
+    justify-content: space-between;
     
 }
 
 .icon {
-    position: fixed;
     align-self: center;
+    order: 1;
 }
 
-h2 {
-    padding-top: 110px;
+h2 {order: 2;
+   
 }
 
 a {
-    
+    order: 2;
+}
+
+p {
+    order: 2;
 }
